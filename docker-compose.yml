@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  app:
+    build: .
+    container_name: kindlify
+    restart: always
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/app

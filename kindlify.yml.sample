@@ -1,0 +1,4 @@
+send_to_kindle_email: xxx@kindle.com
+authorized_email: xxx@example.com
+smtp_user: yyy@example.com
+smtp_password: zzzzzzzzzzzzzz
