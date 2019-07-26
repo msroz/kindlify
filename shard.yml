@@ -1,0 +1,20 @@
+name: kindlify
+version: 0.1.0
+
+authors:
+  - msroz <masaru95@gmail.com>
+
+targets:
+  kindlify:
+    main: src/kindlify.cr
+
+crystal: 0.29.0
+
+dependencies:
+  clim:
+    github: at-grandpa/clim
+    version: 0.7.0
+  email:
+    github: arcage/crystal-email
+
+license: MIT
